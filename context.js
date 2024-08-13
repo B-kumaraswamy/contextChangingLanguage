@@ -5,6 +5,8 @@ export const useLanguageContext = () => {
     return useContext(LanguageContext)
 }
 
+//version control practising
+
 export const LanguageProvider = ({children}) => {
     const [activeLanguage, setactiveLanguage] = useState("English")
 
